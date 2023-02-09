@@ -8,3 +8,9 @@ class Book
     end
 end
 
+first_book=Book.new("Mastering Ruby")
+first_book.author ="Josphat Kiplimo"
+first_book.genre="Ruby"
+first_book.page_count=300
+first_book.turn_page  
+
